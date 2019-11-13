@@ -13,26 +13,27 @@ export const ProductList = styled.ul`
     background: #fff;
     border-radius: 4px;
     padding: 20px;
-  }
-  img {
-    align-self: center;
-    max-width: 280px;
+
+    img {
+      align-self: center;
+      max-width: 280px;
+    }
+
+    > strong {
+      font-size: 16px;
+      line-height: 20px;
+      color: #333;
+      margin-top: 5px;
+    }
+
+    > span {
+      font-size: 21px;
+      font-weight: bold;
+      margin: 5px 0 20px;
+    }
   }
 
-  > strong {
-    font-size: 16px;
-    line-height: 20px;
-    color: #333,
-    margin-top: 5px;
-  }
-
-  > span {
-    font-size: 21px;
-    font-weight: bold;
-    margin: 5px 0 20px;
-  }
-
-  button{
+  button {
     background: #7159c1;
     color: #fff;
     border: 0;
@@ -42,24 +43,24 @@ export const ProductList = styled.ul`
 
     display: flex;
     align-items: center;
-    transition: 0.10s;
+    transition: 0.1s;
 
-    &:hover{
-      background: ${darken(0.09, '#7159c1')}
+    &:hover {
+      background: ${darken(0.09, '#7159c1')};
     }
 
-    div{
+    div {
       display: flex;
       align-items: center;
       padding: 12px;
-      background: rgba(0,0,0,0.1);
+      background: rgba(0, 0, 0, 0.1);
 
-      svg{
+      svg {
         margin-right: 5px;
       }
     }
 
-    span{
+    span {
       flex: 1;
       text-align: center;
       font-weight: bold;
