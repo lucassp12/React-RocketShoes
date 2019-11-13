@@ -72,7 +72,7 @@ export default function Home() {
 
       <li>
         <img
-          src="https://static.netshoes.https://static.netshoes.com.br/produtos/tenis-de-caminhada-leve-confortavel/06/E74-0492-006/E74-0492-006_detalhe2.jpg?ims=326x.br/produtos/tenis-nike-downshifter-9-masculino/26/HZM-1276-026/HZM-1276-026_zoom1.jpg"
+          src="https://static.netshoes.com.br/produtos/tenis-ecko-court-masculino/10/B25-0621-010/B25-0621-010_zoom1.jpg"
           alt="tenis"
         />
         <strong>Tênis muito legal</strong>
