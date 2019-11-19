@@ -32,7 +32,7 @@ class Home extends Component {
   };
 
   render() {
-    const { products } = this.state;
+    const { products, loading } = this.state;
     const { amount } = this.props;
     return (
       <ProductList>
